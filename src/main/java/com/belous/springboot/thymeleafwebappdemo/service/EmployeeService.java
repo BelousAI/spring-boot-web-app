@@ -9,4 +9,6 @@ public interface EmployeeService {
     List<Employee> findAll();
 
     void save(Employee theEmployee);
+
+    Employee findById(int theId);
 }

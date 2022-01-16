@@ -45,6 +45,20 @@ public class EmployeeController {
         return "employees/employee-form";
     }
 
+    // add mapping for "/showFormForUpdate"
+    @GetMapping("/showFormForUpdate")
+    public String updateEmployee(@RequestParam("employeeId") int theId, Model theModel) {
+
+        // get the employee from the service
+        Employee theEmployee = employeeService.findById(theId);
+
+        // set employee as a model attribute to pre-populate the form
+        theModel.addAttribute("employee", theEmployee);
+
+        // send over to our form
+        return "/employees/employee-form";
+    }
+
     // add mapping for "/save"
     @PostMapping("/save")
     public String saveEmployee(@ModelAttribute("employee") Employee theEmployee) {
