@@ -1,6 +1,6 @@
 package com.belous.springboot.thymeleafwebappdemo.controller;
 
-import com.belous.springboot.thymeleafwebappdemo.entity.Employee;
+import com.belous.springboot.thymeleafwebappdemo.entity.employee.Employee;
 import com.belous.springboot.thymeleafwebappdemo.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

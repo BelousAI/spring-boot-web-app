@@ -1,4 +1,4 @@
-package com.belous.springboot.thymeleafwebappdemo.entity;
+package com.belous.springboot.thymeleafwebappdemo.entity.employee;
 
 import javax.persistence.*;
 
