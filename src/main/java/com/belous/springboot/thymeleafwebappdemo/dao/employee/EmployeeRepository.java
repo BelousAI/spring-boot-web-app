@@ -1,6 +1,6 @@
-package com.belous.springboot.thymeleafwebappdemo.dao;
+package com.belous.springboot.thymeleafwebappdemo.dao.employee;
 
-import com.belous.springboot.thymeleafwebappdemo.entity.Employee;
+import com.belous.springboot.thymeleafwebappdemo.entity.employee.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface EmployeeRepository extends JpaRepository<Employee, Integer> {

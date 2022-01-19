@@ -1,6 +1,6 @@
 package com.belous.springboot.thymeleafwebappdemo.service;
 
-import com.belous.springboot.thymeleafwebappdemo.entity.Employee;
+import com.belous.springboot.thymeleafwebappdemo.entity.employee.Employee;
 
 import java.util.List;
 
