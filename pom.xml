@@ -11,7 +11,8 @@
 	<groupId>com.belous.springboot</groupId>
 	<artifactId>thymeleaf-web-app-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>thymeleaf-web-app-demo</name>
+
+	<name>employee-directory</name>
 	<description>Demo web application with Spring Boot and Thymeleaf</description>
 	<properties>
 		<java.version>1.8</java.version>
