@@ -18,8 +18,8 @@ Thymeleaf/ Spring Boot 2/ Spring MVC/ Spring Security/ Spring Data JPA/ MySQL/ M
 
 ### Управление доступом на основе ролей:
 - **Employee role:** просмотр списка сотрудников;
-- **Manager role:** Employee role + *добавление новых и изменение существующих сотрудников;*
-- **Admin role:** Manager role + *удаление сотрудников*
+- **Manager role:** *Employee role* + добавление новых и изменение существующих сотрудников;
+- **Admin role:** *Manager role* + удаление сотрудников
 
 ### Тестовые учетки пользователей:
 1. *john*
