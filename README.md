@@ -4,7 +4,7 @@ Spring Boot Web Application: Employee Directory
 Используемые технологии / инструменты / фреймворки:\
 Thymeleaf/ Spring Boot 2/ Spring MVC/ Spring Security/ Spring Data JPA/ MySQL/ Maven
 
-**Проект развернут на Heroku:** [https://thymeleaf-employee-directory.herokuapp.com](https://rest-employee-directory.herokuapp.com/)
+**Проект развернут на Heroku:** [https://thymeleaf-employee-directory.herokuapp.com](https://thymeleaf-employee-directory.herokuapp.com)
 
 ### Другие проекты:
 - [Web App: Spring 5 (MVC, AOP) + JSP + Spring Security + Hibernate API](https://github.com/BelousAI/spring-web-crm-demo)
